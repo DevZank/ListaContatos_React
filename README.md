@@ -1,5 +1,7 @@
 # Lista de Contatos
 
+![Captura de tela 2024-05-18 212146](https://github.com/DevZank/ListaContatos_React/assets/111926496/26834c9d-c921-407d-92fd-bfea9f5274e9)
+
 Este projeto é uma aplicação simples de lista de contatos desenvolvida em React. A aplicação permite adicionar e visualizar contatos com nome e número de telefone. 
 
 ## Funcionalidades
