@@ -1,0 +1,125 @@
+main {
+  width: 100vw;
+  height: 100vh;
+
+  background: url("../assets/Bg.jpg");
+  background-size: cover;
+  display: flex;
+
+  .CadastrarContainer {
+    width: 50%;
+    height: 100%;
+    background: rgba(68, 68, 68, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(16.8px);
+    -webkit-backdrop-filter: blur(16.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+    color: #fff;
+
+    h2 {
+      position: absolute;
+      top: 200px;
+      font-size: 4rem;
+    }
+
+    .InputContainer {
+      display: flex;
+      flex-direction: column;
+
+      .InputContent {
+        position: relative;
+
+        i {
+          position: absolute;
+          font-size: 2rem;
+          padding: 0 5px;
+          top: 10px;
+          right: 0;
+        }
+
+        input {
+          background: transparent;
+          border: none;
+          border-bottom: 1px solid #fff;
+          font-size: 2rem;
+          color: #fff;
+          padding: 0 5px;
+          margin: 10px 0;
+
+          &::placeholder {
+            color: #fff8;
+          }
+          &:focus {
+            border-bottom: 1px solid #fff;
+            outline: none;
+          }
+        }
+      }
+
+      button {
+        background: none;
+        border: 1px solid #fff;
+        color: #fff;
+        margin-top: 50px;
+        border-radius: 50px;
+        padding: 10px;
+
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+
+        &:hover {
+          background: #fff;
+          color: #000;
+        }
+      }
+    }
+  }
+
+  .Contatos {
+    width: 50%;
+    height: 100%;
+    /* background: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      height: 50%;
+      background: rgba(32, 32, 32, 0.23);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(9.4px);
+      -webkit-backdrop-filter: blur(9.4px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+
+      #IconContatos {
+        position: absolute;
+        top: 30px;
+        color: #fff;
+        font-size: 5rem;
+      }
+
+      i {
+        margin: 0 5px;
+      }
+
+      li {
+        width: 80%;
+        color: #fff;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
