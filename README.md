@@ -1,8 +1,43 @@
-# React + Vite
+# Lista de Contatos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples de lista de contatos desenvolvida em React. A aplicação permite adicionar e visualizar contatos com nome e número de telefone. 
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adicionar novos contatos
+- Visualizar a lista de contatos adicionados
+
+## Pré-requisitos
+
+Para executar este projeto, você precisará ter o Node.js e o npm instalados em sua máquina.
+
+## Instalação
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/lista-de-contatos.git
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd lista-de-contatos
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+5. Abra o navegador e acesse `http://localhost:PORTA_DO_HOST`
+
+---
+
+## Contato
+
+Sinta-se à vontade para entrar em contato comigo.
+
+---
+
+Feito por [Isaac Martins](https://www.linkedin.com/in/isaacmjsilva/)
